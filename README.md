@@ -9,7 +9,7 @@ This is very much WIP. Feel free to submit PRs to fix ugly code or whatever, sin
 
 You will first need a linker for `arm-unknown-gnueabi`, you can find many on [Github](https://github.com/search?q=toolchain+arm) for your host OS.
 
-You will also need to retrieve the following libraries via for example a docker image with the same arch as the target:
+You will also need to retrieve the following libraries via for example a docker container with the same arch as the target:
 
 - `libportmidi.so`
 - `libusb.so`
