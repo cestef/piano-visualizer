@@ -1,0 +1,25 @@
+[leds]
+pin = 18
+animation = "ripple"
+num_leds = 176
+brightness = 75
+offsets = [[92, 2], [55, 1]]
+shift = 0
+fade = 100
+channel = 0
+color_mode = "#7300ff"
+trail_length = 10
+trail_fade = 100
+
+[midi]
+id = 3
+buffer_size = 1024
+max_keys_processing = 32
+timeout = 10
+
+[midi.rtp]
+socket = "/var/run/rtpmidi/control.sock"
+
+[api]
+host = "192.168.1.236"
+port = 8080

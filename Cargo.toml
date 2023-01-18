@@ -1,0 +1,20 @@
+[package]
+name = "piano_visualizer"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rs_ws281x = "0.4.2"
+cichlid = "0.2.1"
+toml = "0.5.9"
+serde_derive = "1.0.139"
+serde = "1.0.139"
+serde_json = "1.0.73"
+portmidi = "^0.2"
+rustc-serialize = "0.3.24"
+midly = "0.5.2"
+paris = { version = "1.5.13", features = ["macros"] }
+rand = "0.8.5"
+rocket = { version = "0.5.0-rc.2", features = ["json"] }

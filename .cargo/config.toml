@@ -1,0 +1,9 @@
+[target.arm-unknown-linux-gnueabi]
+runner = "python3 scripts/deploy.py -rte --additional-files='config.toml' --sudo -P=raspberry --release"
+linker = "/Users/cstef/arm-unknown-linux-gnueabi/bin/arm-unknown-linux-gnueabi-gcc"
+
+
+[build]
+target = "arm-unknown-linux-gnueabi"
+[rustc]
+target = "arm-unknown-linux-gnueabi"
